@@ -8,11 +8,11 @@ public class Taller4 {
         estudiantes1[1] = new Persona();
         estudiantes1[2] = new Persona(71212, "Maria");
         Persona profesor1 = new Persona("Juan", 988);
-        Asignatura asignatura1 = new Asignatura("Calculo",Tipo.FUNDAMENTACION);
+        Asignatura asignatura1 = new Asignatura("Calculo");
         Grupo grupo1 = new Grupo(estudiantes1, profesor1, asignatura1, 10023, "M J 2-4");
 
         Persona profesor2 = new Persona(99212, "Andrea");
-        Asignatura asignatura2 = new Asignatura(882,Tipo.DISCIPLINAR);
+        Asignatura asignatura2 = new Asignatura(882);
         asignatura2.setCodigoInterno(98);
         asignatura2.cambiarDatos("Estadistica");
         Grupo grupo2 = new Grupo(2, profesor2, asignatura2, 10122, "W V 8-10");
